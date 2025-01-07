@@ -1,0 +1,358 @@
+{
+  "project_info": {
+    "project_number": "890500275772",
+    "project_id": "tampo-app",
+    "storage_bucket": "tampo-app.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:520eb7f514c533c864ed39",
+        "android_client_info": {
+          "package_name": "com.example.background_notifications"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:51b4625818e0a40264ed39",
+        "android_client_info": {
+          "package_name": "com.example.note"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:633748fd2e5196c264ed39",
+        "android_client_info": {
+          "package_name": "com.example.notifytampo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:050ded2beb7be17a64ed39",
+        "android_client_info": {
+          "package_name": "com.example.tampo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:532e3f00c963b09a64ed39",
+        "android_client_info": {
+          "package_name": "com.example.tampo_notification"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:3a54944503ce038d64ed39",
+        "android_client_info": {
+          "package_name": "com.exapmle.notificationTampo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:b958e824169ce28464ed39",
+        "android_client_info": {
+          "package_name": "com.itslabs.tampo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-7iohsabh38560q503cfnkbhmi51kja6l.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.itslabs.tampo",
+            "certificate_hash": "2597d0a3c937a9e88b17e0a037f58872851c6eef"
+          }
+        },
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:3368eafb35972b7864ed39",
+        "android_client_info": {
+          "package_name": "com.tampo.admin"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:890500275772:android:888b5c0891e27f7164ed39",
+        "android_client_info": {
+          "package_name": "com.tampo.android.dev"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "890500275772-43cnk1q08gl8ehoada2517jovhllateo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tampo.android.dev",
+            "certificate_hash": "2597d0a3c937a9e88b17e0a037f58872851c6eef"
+          }
+        },
+        {
+          "client_id": "890500275772-ddf1ese13phdmcn11t41d1d8lnur55l4.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.tampo.android.dev",
+            "certificate_hash": "37870634a88b051734a28a9d8055f0e4b1e9065c"
+          }
+        },
+        {
+          "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBvasUI72dQQ3rRwH6w0iNfbE-z1LyflsM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "890500275772-5c2a0hk4bgt7ps5c159ufkfa941gkqnd.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "890500275772-2q4jjbisgrpen3occ4ab9o7mlcvjenvh.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.example.tampo"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
