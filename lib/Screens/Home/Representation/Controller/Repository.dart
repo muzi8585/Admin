@@ -61,16 +61,16 @@ class Repository {
         .map((doc) => Note.fromMap(doc.data()))
         .toList();
   }
-      Future<List<ReportModel>> fetchAllReports() async {
-    final snapshot = await _firestore.collection('reports').get();
-    
-    if (snapshot.docs.isEmpty) {
-      return [];
+     Future<List<ReportModel>> fetchAllReports() async {
+    try {
+      final snapshot = await _firestore.collection('reports').get();
+      return snapshot.docs.map((doc) {
+        final data = doc.data();
+        return ReportModel.fromMap({...data, 'reportId': doc.id});
+      }).toList();
+    } catch (e) {
+      throw Exception("Failed to fetch reports: $e");
     }
-
-    return snapshot.docs.map((doc) {
-      return ReportModel.fromMap(doc.data());
-    }).toList();
   }
   Future<List<FeedbackModel>> fetchAllFeedbacks() async {
     final snapshot = await _firestore.collection('feedbacks').get();
@@ -82,4 +82,31 @@ class Repository {
       return FeedbackModel.fromMap(doc.data());
     }).toList();
   }
+  Future<List<Project>> fetchProjectsByUid() async {
+  try {
+    final snapshot = await FirebaseFirestore.instance
+        .collection('projects')  
+        .get();
+    return snapshot.docs
+        .map((doc) => Project.fromMap(doc.data()))
+        .toList();
+  } catch (e) {
+    throw Exception('Error fetching projects: $e');
+  }
+}
+Future<List<UserModel>> fetchUsersName() async {
+  try {
+    final snapshot =
+        await FirebaseFirestore.instance.collection('users').get();
+
+    final users = snapshot.docs
+        .map((doc) => UserModel.fromMap(doc.data()))
+        .toList();
+
+    return users; 
+  } catch (e) {
+    throw Exception('Error fetching projects: $e');
+  }
+}
+
 }

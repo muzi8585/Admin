@@ -2,6 +2,8 @@ import 'package:flutter/material.dart';
 import 'package:go_router/go_router.dart';
 import 'package:riverpod_annotation/riverpod_annotation.dart';
 import 'package:tampo_admin_app/Screens/Home/Representation/View/Home.dart';
+import 'package:tampo_admin_app/Screens/Home/Representation/View/Screens/FeedBackScreen.dart';
+import 'package:tampo_admin_app/Screens/Home/Representation/View/Screens/Reports.dart';
 import 'package:tampo_admin_app/Screens/Home/Representation/View/Screens/UserScreen.dart';
 
 part 'Routing.g.dart';
@@ -21,7 +23,7 @@ GoRouter appRouter(ProviderRef ref) {
         pageBuilder: (context, state) => buildCustomTransition(
           context,
           state,
-           HomeScreen(),
+          HomeScreen(),
           transitionType: PageTransitionType.fade,
         ),
       ),
@@ -30,28 +32,28 @@ GoRouter appRouter(ProviderRef ref) {
         pageBuilder: (context, state) => buildCustomTransition(
           context,
           state,
-           UserListScreen(),
+          UserListScreen(),
           transitionType: PageTransitionType.fade,
         ),
       ),
-      // GoRoute(
-      //   path: '/FeedBackScreen',
-      //   pageBuilder: (context, state) => buildCustomTransition(
-      //     context,
-      //     state,
-      //     const FeedbackScreen(),
-      //     transitionType: PageTransitionType.fade,
-      //   ),
-      // ),
-      // GoRoute(
-      //   path: '/ReportsScreen',
-      //   pageBuilder: (context, state) => buildCustomTransition(
-      //     context,
-      //     state,
-      //     const ReportsScreen(),
-      //     transitionType: PageTransitionType.fade,
-      //   ),
-      // ),
+      GoRoute(
+        path: '/FeedBackScreen',
+        pageBuilder: (context, state) => buildCustomTransition(
+          context,
+          state,
+          const FeedbackScreen(),
+          transitionType: PageTransitionType.fade,
+        ),
+      ),
+      GoRoute(
+        path: '/ReportsScreen',
+        pageBuilder: (context, state) => buildCustomTransition(
+          context,
+          state,
+          const ReportsScreen(),
+          transitionType: PageTransitionType.fade,
+        ),
+      ),
     ],
   );
 }

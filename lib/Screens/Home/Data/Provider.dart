@@ -19,6 +19,15 @@ final fetchProjectsProvider = FutureProvider<List<Project>>((ref) async {
   final repository = ref.watch(repositoryProvider);
   return repository.fetchProjects();
 });
+final fetchProjectsNameProvider = FutureProvider.family<List<Project>, String>((ref,_) async {
+  final repository = ref.watch(repositoryProvider);
+  return repository.fetchProjectsByUid();  
+});
+final fetchUsersName = FutureProvider<List<UserModel>>((ref) async {
+  final repository = ref.watch(repositoryProvider);
+  return repository.fetchUsers();  
+});
+
 final fetchTasksProvider = FutureProvider<List<TaskModel>>((ref) async {
   final repository = ref.watch(repositoryProvider);
   return repository.fetchAllTasks();
@@ -36,27 +45,7 @@ final fetchNotesProvider = FutureProvider<List<Note>>((ref) async {
   final repository = ref.watch(repositoryProvider);
   return repository.fetchAllNotes();
 });
-
-final reportRepositoryProvider = Provider((ref) => Repository());
-
-class ReportNotifier extends StateNotifier<List<ReportModel>> {
-  final Repository reportRepository;
-
-  ReportNotifier(this.reportRepository) : super([]);
-
-  Future<void> loadReports() async {
-    try {
-      final reports = await reportRepository.fetchAllReports();
-      state = reports; // Set the state with the fetched reports
-    } catch (e) {
-      state = []; // Handle any 
-      print('Error fetching reports: $e');
-    }
-  }
-}
-
-final reportsProvider =
-    StateNotifierProvider<ReportNotifier, List<ReportModel>>((ref) {
-  final reportRepository = ref.watch(reportRepositoryProvider);
-  return ReportNotifier(reportRepository);
+final fetchReportProvider = FutureProvider<List<ReportModel>>((ref) async {
+  final reportService = ref.watch(repositoryProvider);
+  return reportService.fetchAllReports();
 });
